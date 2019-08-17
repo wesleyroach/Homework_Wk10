@@ -28,17 +28,29 @@ h2,
 h3 {
   font-family: "Georgeia", Times, Times New Roman, sans-serif;
   font-weight: 700;
-  color: #4aaaa5;
 }
 h1 {
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid #d9d9d1;
   padding-bottom: 20px;
+  color: #066da8;
+}
+h2 {
+  color: #066da8;
+}
+h3 {
+  color: #066da8;
 }
 h2,
 h3 {
   font-size: 20px;
+}
+#nav1 {
+  color: #066da8;
+}
+#nava {
+  background-color: #d9d9d1;
 }
 .thetop {
   background: #fff;
@@ -51,13 +63,13 @@ h3 {
 #bar {
   width: 250px;
   height: 90px;
-  background: hsl(177, 39%, 48%);
+  background: #066da8m;
   font-family: "Georgia", Times, Times New Roman, sans-serif;
   text-align: center;
   line-height: 90px;
   color: #fff;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: none;
 }
 nav {
@@ -102,12 +114,21 @@ nav a:first-child {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
   text-align: justify;
+  background-color: #e1ebee;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .testim2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
   text-align: justify;
-  background-color: #ccc;
+  background-color: #dfe8ef;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .wes_img {
   width: 200px;
@@ -126,7 +147,7 @@ nav a:first-child {
 .sidebar,
 h2,
 h3 {
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #d9d9d1;
   padding-bottom: 10px;
   margin-bottom: 5px;
   line-height: 22px;
@@ -154,7 +175,7 @@ footer {
   width: 274px;
   overflow: auto;
   position: relative;
-  margin: 20px 0 25px;
+  margin: 20px 50px 25px;
 }
 .work:nth-child(even) {
   margin-right: 40px;
@@ -165,7 +186,7 @@ footer {
 }
 .work h3 {
   border-bottom: 0;
-  background: #4aaaa5;
+  background: #066da8;
   color: #fff;
   text-align: center;
   bottom: 20px;
@@ -187,6 +208,9 @@ footer {
 #contact-form li {
   margin-bottom: 10px;
 }
+#connect {
+  background-color: #f7e0e7;
+}
 label,
 input[type="text"],
 input[type="email"],
@@ -206,7 +230,7 @@ textarea {
   height: 200px;
 }
 input[type="submit"] {
-  background: #4aaaa5;
+  background: #066da8;
   border: 0 none;
   color: #fff;
   font-size: 18px;
