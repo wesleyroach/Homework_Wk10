@@ -44,7 +44,12 @@
       <div class="row">
         <div class="col col-sm-8">
           <h1>Contact</h1>
-          <form id="contact-form">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            id="contact-form"
+          >
             <ul>
               <li>
                 <label for="name">Name</label>
@@ -59,7 +64,7 @@
               <li>
                 <label for="email">Email</label>
                 <input
-                  type="text"
+                  type="email"
                   name="email"
                   id="email"
                   placeholder="example@gmail.com"
