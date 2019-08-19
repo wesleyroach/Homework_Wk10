@@ -211,6 +211,17 @@ footer {
 #connect {
   background-color: #f7e0e7;
 }
+.inside {
+  margin-left: 100px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 30px;
+}
+.dialogue {
+  border: 15px solid #ccc;
+  padding: 20px;
+}
+
 label,
 input[type="text"],
 input[type="email"],
